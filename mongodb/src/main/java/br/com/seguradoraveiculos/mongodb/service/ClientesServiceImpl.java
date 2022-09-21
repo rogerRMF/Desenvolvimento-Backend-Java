@@ -41,7 +41,6 @@ public class ClientesServiceImpl implements ClientesService{
             clientes.forEach(cliente -> responses.add(createResponse(cliente)));
         }
 
-
         return responses;
 
         }
